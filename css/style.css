@@ -1,0 +1,144 @@
+/* ===============================================================================
+=============================== Variables ========================================
+==================================================================================
+*/
+
+:root {
+  --color-bg-scroll: #fff;
+  --color-base-green1: #529F0F;
+  --color-base-green2: #529f11;
+  --color-base-green3: #92c369;
+  --color-tipografia: #575757;
+  --color-tipografia2: #333333;
+}
+
+/* ===============================================================================
+=============================== Custom Scroll ====================================
+==================================================================================
+*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--color-bg-scroll); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-base-green3);
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-base-green1); 
+}
+
+/* ===============================================================================
+=============================== General Styles ===================================
+==================================================================================
+*/
+
+*{
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	min-height: 100vh;
+}
+
+a{
+	text-decoration: none;
+	padding: 6px 15px;
+}
+
+li{
+	list-style: none;
+
+	text-transform: uppercase;
+}
+
+/* ===============================================================================
+=============================== Navbar ===========================================
+==================================================================================
+*/
+
+header{}
+
+nav{
+	position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .brand{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav .buy{
+	margin-right: 15px;
+}
+
+/* ===============================================================================
+=============================== Main  ============================================
+==================================================================================
+*/
+
+section{
+	margin: 0 25px;
+}
+
+.section1{
+	justify-content: center;
+	justify-items: center;
+	justify-self: center;
+}
+
+.content1{
+	display: grid;
+	grid-auto-rows: auto;
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, 100%), 1fr));
+	position: relative;
+    text-align: center;
+}
+
+.t-1{
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.p-1{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content2{
+	margin: 0 10rem;
+	display: grid;
+	grid-auto-rows: auto;
+	column-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
+	background: red;
+}
