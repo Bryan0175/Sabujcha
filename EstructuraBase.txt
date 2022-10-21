@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	*{
+    	margin:0; padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html{
+    	height:100%;
+    }
+    
+    body{
+    	font-size: 1.2rem;
+        min-height: 100%;
+    }
+    .grid-container > *{
+    	box-shadow: -1px 1px 7px 0 rgba(0,0,0,0.75);
+        border-radius:4px;
+        height: 400px;
+        padding:10px;
+        text-align:center;
+        text-transform: uppercase;
+    }
+    
+    .header{
+    	grid-area: header;
+        background: hotpink;
+        height:50px;
+    }
+    
+    .img1{
+    	background:#E9E296;
+        width:100%;
+        height:100%;
+        grid-area: img1;
+    }
+    .img1-2{
+    	background:#E9E296;
+        width:100%;
+        height:100%;
+        grid-area: img1-2;
+    }
+    .img1-3{
+    	background:#E9E296;
+        width:100%;
+        height:100%;
+        grid-area: img1-3;
+    }
+    
+    .section1{
+    	grid-area: section1;
+        display:grid;
+        gap:10px;
+        grid-template-areas:
+        "img1 img1"
+        "img1-2 img1-3"; 
+        background: red;
+    }
+    
+    .product1-section2{
+    	background:#E791EB;
+        width:100%;
+        height:100%;
+        grid-area: p1-s2;
+    }
+    .product2-section2{
+    	background:#E791EB;
+        width:100%;
+        height:100%;
+        grid-area: p2-s2;
+    }
+    .product3-section2{
+    	background:#E791EB;
+        width:100%;
+        height:100%;
+        grid-area: p3-s2;
+    }
+    .product4-section2{
+    	background:#E791EB;
+        width:100%;
+        height:100%;
+        grid-area: p4-s2;
+    }
+    
+    .text-section2{
+    	grid-area: t-s2;
+        color: #fff;
+        background:#E791EB;
+        width:100%;
+        height:100%;
+    }
+    
+    .section2{
+    	grid-area: section2;
+        display:grid;
+        gap:10px;
+        grid-template-areas:
+        "t-s2 t-s2 t-s2 t-s2"
+        "p1-s2 p2-s2 p3-s2 p4-s2"; 
+        background: blue;
+    }
+    
+    .section3{
+    	grid-area: section3;
+        background: yellow;
+    }
+    
+    .section4{
+    	grid-area: section4;
+        background: gray;
+    }
+    
+    .section5{
+    	grid-area: section5;
+        background: green;
+    }
+    
+    .section6{
+    	grid-area: section6;
+        background: orange;
+    }
+    
+    .section7{
+    	grid-area: section7;
+        background: aqua;
+    }
+    
+    .footer{
+    	grid-area: footer;
+        background: purple;
+    }
+    
+    .grid-container{
+    	display:grid;
+        gap:10px;
+        grid-template-areas:
+        "header"
+        "section1"
+        "section2"
+        "section3"
+        "section4"
+        "section5"
+        "section6"
+        "section7"
+        "footer"
+        ;
+    }
+    
+    @media (max-width:600px){
+    	.section1{
+        grid-template-areas:
+        "img1"
+        "img1-2"
+        "img1-3"; 
+    	}
+        
+        .section2{
+        grid-template-areas:
+        "t-s2"
+        "p1-s2"
+        "p2-s2"
+        "p3-s2"
+        "p4-s2"; 
+    }
+    }
+</style>
+</head>
+<body class="grid-container">
+
+	<header class="header">
+		<nav>Navbar</nav>
+    </header>
+    <section class="section1">
+    	<div class="img1"></div>
+        <div class="img1-2"></div>
+        <div class="img1-3"></div>
+    </section>
+    <section class="section2">
+    	<div class="text-section2"></div>
+    	<div class="product1-section2"></div>
+        <div class="product2-section2"></div>
+        <div class="product3-section2"></div>
+        <div class="product4-section2"></div>
+    </section>
+    <section class="section3">Section3</section>
+    <section class="section4">Section4</section>
+    <section class="section5">Section5</section>
+    <section class="section6">Section6</section>
+    <section class="section7">Section7</section>
+    <footer class="footer">Footer</footer>
+
+</body>
+</html>
+
+
