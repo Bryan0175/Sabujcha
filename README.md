@@ -6,3 +6,5 @@ es una nueva marca de té  matcha que busca incursionar en el mercado a través 
 En el primer push realice una maquetacion completa de la pagina, la verdad no me tomo mas de 5 horas pero tenia muchos fallos y problemas para agregar otras partes asi que decidi borrarla y hacerla de nuevo, en el segundo push subi una parte del codigo para ver si estaba funcionando todo correcto, por el momento el unico problema que tengo
 
 On the first push I did a full page layout, this process was easy, I did it in 5 hours but I had some bugs to fix so i decided to make a new one, on the second push i uploaded a part of the code to see if everything worked correctly, currently it is the only problem i have
+
+![image](https://user-images.githubusercontent.com/50422794/197241502-8b34e826-3c1f-4263-8b90-67a5190d0272.png)
