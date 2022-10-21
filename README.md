@@ -7,4 +7,4 @@ En el primer push realice una maquetacion completa de la pagina, la verdad no me
 
 On the first push I did a full page layout, this process was easy, I did it in 5 hours but I had some bugs to fix so i decided to make a new one, on the second push i uploaded a part of the code to see if everything worked correctly, currently it is the only problem i have
 
-![image](https://user-images.githubusercontent.com/50422794/197241502-8b34e826-3c1f-4263-8b90-67a5190d0272.png)
+En el segundo push subi la estuctura de la pagina completa, simpletemente faltaba arreglar/implementar el responsive, las margenes, los tipos de fuente y hacer los cambios correspondientes en el "trello"
