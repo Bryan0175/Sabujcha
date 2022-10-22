@@ -1434,24 +1434,10 @@ li{
 ========================================================================================
 =============================== Media Queries ==========================================
 ========================================================================================
-*/
-
 @media (min-width: 1024px){
-    .grid-container{
-        display:grid;
-        grid-template:
-        "header" auto
-        "section1" 60vh
-        "section2" 50vh
-        "section3" 30vh
-        "section4" 65vh
-        "section5" 25vh
-        "section6" 75vh
-        "section7" 25vh
-        "footer-up" 33vh
-        "footer-down" auto /
-        100%
-    ;}
+    .section2{
+    padding: 0 10px;    
+    }
 }
 
 @media (max-width: 800px){
