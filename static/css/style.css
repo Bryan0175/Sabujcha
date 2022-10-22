@@ -1469,7 +1469,7 @@ li{
         "section3" calc(var(--size-section3) + 5vh)
         "section4" calc(var(--size-section4) + 370vh)
         "section5" var(--size-section5)
-        "section6" calc(var(--size-section6) + 170vh)
+        "section6" calc(var(--size-section6) + 180vh)
         "section7" calc(var(--size-section7) + 25vh)
         "footer-up" calc(var(--size-footer-up) + 80vh)
         "footer-down" calc(var(--size-footer-down) + 5vh)/
@@ -1589,20 +1589,40 @@ li{
         height: 50px;
     }
 
+    .product1-section2{
+        margin-bottom: 40px;
+    }
+
     .p1-s2{             
-        height:22rem; 
+        height:22rem;
+        margin-bottom: 30px;
+    }
+
+    .product2-section2{
+        margin-bottom: 40px;
     }
 
     .p2-s2{             
-        height:22rem; 
+        height:22rem;
+        margin-bottom: 30px;
+    }
+
+    .product3-section2{
+        margin-bottom: 40px;
     }
 
     .p3-s2{             
-        height:22rem; 
+        height:22rem;
+        margin-bottom: 30px;
+    }
+
+    .product4-section2{
+        margin-bottom: 40px;
     }
 
     .p4-s2{             
         height:22rem;
+        margin-bottom: 30px;
     }
 
     /* Section3 */
