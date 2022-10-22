@@ -1436,10 +1436,22 @@ li{
 ========================================================================================
 */
 
-@media (max-width: 1024px){
-    .section2{
-    padding: 0 60px;      
-    }
+@media (min-width: 1024px){
+    .grid-container{
+        display:grid;
+        grid-template:
+        "header" auto
+        "section1" 60vh
+        "section2" 50vh
+        "section3" 30vh
+        "section4" 65vh
+        "section5" 25vh
+        "section6" 75vh
+        "section7" 25vh
+        "footer-up" 33vh
+        "footer-down" auto /
+        100%
+    ;}
 }
 
 @media (max-width: 800px){
@@ -1465,7 +1477,7 @@ li{
         grid-template:
         "header" var(--size-header)
         "section1" var(--size-section1)
-        "section2" calc(var(--size-section2) + 210vh)
+        "section2" calc(var(--size-section2) + 200vh)
         "section3" calc(var(--size-section3) + 5vh)
         "section4" calc(var(--size-section4) + 370vh)
         "section5" var(--size-section5)
@@ -1475,6 +1487,10 @@ li{
         "footer-down" calc(var(--size-footer-down) + 5vh)/
         100%
     ;}
+
+    .section1{
+
+    }
 
     .grid-container > *{
         padding: 3px;
