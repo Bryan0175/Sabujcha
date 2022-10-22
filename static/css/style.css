@@ -1465,7 +1465,7 @@ li{
         grid-template:
         "header" var(--size-header)
         "section1" var(--size-section1)
-        "section2" calc(var(--size-section2) + 180vh)
+        "section2" calc(var(--size-section2) + 210vh)
         "section3" calc(var(--size-section3) + 5vh)
         "section4" calc(var(--size-section4) + 370vh)
         "section5" var(--size-section5)
