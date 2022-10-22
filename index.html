@@ -10,7 +10,7 @@
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="" type="image/x-icon">
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./static/css/style.css">
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<title>Sabujcha</title>
@@ -23,21 +23,44 @@
 		<nav class="contenedor">
 			<div class="menu">
 				<ul>
-					<li><a>Home</a></li>
-					<li><a>About</a></li>
-					<li><a>Blog</a></li>
-					<li><a>Pages</a></li>
-					<li><a>Contact</a></li>
+					<li><a href="#Home">Home</a></li>
+					<li><a href="#About">About</a></li>
+					<li><a href="#Blog">Blog</a></li>
+					<li><a href="#Pages">Pages</a></li>
+					<li><a href="#Contact">Contact</a></li>
 				</ul>
 			</div>
 
 			<div class="brand">
-				<img src="./img/logo.png" width="100%" height="100%">
+				<img src="./static/img/logo.png" width="100%" height="100%">
 			</div>
 
 			<div class="buy">
-			  <span>USD <i class="fas fa-angle-down"></i></span> 
-			  <span class="fas fa-cart-arrow-down fa-lg"></span>
+			  <div class="faq-idioma">
+		          <select name="cars" id="money" class="c-pointer-g">
+		            <option selected value="Dolar_Estadounidenses">USD (DolarEstadounidense)</option>
+		            <option value="Dolar_Australiano">AUD (DolarAustraliano)</option>
+		            <option value="Dolar_Barbados">BBD (DolarBarbados)</option>
+		            <option value="Dolar_Bermudas">BMD (DolarBermudas)</option>
+		            <option value="Dolar_Bruunei">BND (DolarBruunei)</option>
+		            <option value="Dolar_Bahamas">BSD (DolarBahamas)</option>
+		            <option value="Dolar_Belice">BZD (DolarBelice)</option>
+		            <option value="Dolar_Canadience">CAD (DolarCanadience)</option>
+		            <option value="Euro">EUR (Euro)</option>
+		            <option value="Peso_Argentino">ARS (PesoArgentino)</option>
+		            <option value="Peso_Chileno">CLP (PesoChileno)</option>
+		            <option value="Peso_Colombiano">COP (PesoColombiano)</option>
+		            <option value="Peso_Cubano">CUP (PesoCubano)</option>
+		            <option value="Peso_Dominicano">DOP (PesoDominicano)</option>
+		            <option value="Peso_Filipino">PHP (PesoFilipino)</option>
+		            <option value="Peso_Mexicano">MXN (PesoMexicano)</option>
+		            <option value="Peso_Uruguayo">UYU (PesoUruguayo)</option>
+		            <option value="Franco_Pacifico">XPF (FrancoPacifico)</option>
+		            <option value="Libra_Egipcio">EGP (LibraEgipcio)</option>
+		            <option value="Libra_Esterlina">GBP (LibraEsterlina)</option>
+		          </select>
+		       </div>
+			  <span class="fas fa-cart-arrow-down fa-lg c-pointer"></span>
 			</div>
 			<div class="show">
 			  <i class="fas fa-bars fa-lg"></i>
@@ -48,9 +71,24 @@
 	<!-- section1 -->
 
     <section class="section1">
-    	<div class="product1-section1"></div>
-        <div class="product2-section1"></div>
-        <div class="product3-section1"></div>
+    	<div class="product1-section1">
+    		<div class="p1-t-s1">
+    			<h2>Want to stay healthy<br>drink matcha.</h2>
+    			<label class="c-pointer">Shop Now</label>
+    		</div>
+    	</div>
+        <div class="product2-section1">
+        	<div class="p2-t-s1">
+    			<h2>-50% Sale</h2>
+    			<label>SUMMER VACATION</label>
+    		</div>
+        </div>
+        <div class="product3-section1">
+        	<div class="p3-t-s1">
+    			<h2>-20% Sale</h2>
+    			<label>WINTER VACATION</label>
+    		</div>
+        </div>
     </section>
 
     <!-- section2 -->
@@ -63,24 +101,24 @@
     	<div class="product1-section2">
     		<span class="p1-s2__sale">-20%</span>
     		<div class="p1-s2"></div>
-    		<span>Nature close tea</span>
-    		<span>$100.00 - <del>$120.00</del></span>
+    		<label class="t-sub-s2">Nature close tea</label>
+    		<label>$96.00 - <del>$120.00</del></label>
     	</div>
         <div class="product2-section2">
         	<div class="p2-s2"></div>
-        	<span>Nature close tea</span>
-    		<span>$100.00 - <del>$120.00</del></span>
+        	<label class="t-sub-s2">Pink Wave Cup</label>
+    		<label>$100.00</label>
         </div>
         <div class="product3-section2">
         	<span class="p3-s2__sale">-50%</span>
         	<div class="p3-s2"></div>
-        	<span>Nature close tea</span>
-    		<span>$100.00 - <del>$120.00</del></span>
+        	<label class="t-sub-s2">Tea And Chai</label>
+    		<label>$60.00 - <del>$120.00</del></label>
         </div>
         <div class="product4-section2">
         	<div class="p4-s2"></div>
-        	<span>Nature close tea</span>
-    		<span>$100.00 - <del>$120.00</del></span>
+        	<label class="t-sub-s2">Pearly Everlasting</label>
+    		<label>$100.00</label>
         </div>
     </section>
 
@@ -88,7 +126,7 @@
 
     <section class="section3">
     	<div class="p1-s3"></div>
-    	<p class="title-s3">Lorem ipsu dolor sit amet. consecteur adipisicing elit sed do eiusmod tempor incididunl ut labore</p>
+    	<p class="title-s3">Lorem ipsum dolor sit amet. consecteur adipisicing elit sed do eiusmod tempor incididunl ut labore</p>
     	<span class="paragraph1-s3">GREGORY PERKINS</span>
     	<span class="paragraph2-s3">Customer</span>
     </section>
@@ -98,52 +136,52 @@
     <section class="section4">
     	<div class="text-section4">
     		<span class="title-s4">New Products</span>
-    		<p class="paragraph-s4">Lorem ipsu dolor sit amet. consecteur adipisicing elit sed do eiusmod tempor incididunl</p>
+    		<p class="paragraph-s4">Lorem ipsum dolor sit amet. consecteur adipisicing elit sed do eiusmod tempor incididunl</p>
     	</div>
     	<div class="product1-section4">
     		<span class="p1-s4__sale">-30%</span>
     		<div class="p1-s4"></div>
-    		<span>BeBe Bloom Tea</span>
-    		<span>$84.00 - <del>$120.00</del></span>
+    		<label class="t-sub-s4">BeBe Bloom Tea</label>
+    		<label>$84.00 - <del>$120.00</del></label>
     	</div>
         <div class="product2-section4">
         	<span class="p2-s4__sale">-60%</span>
     		<div class="p2-s4"></div>
-    		<span>Que herbal Tea</span>
-    		<span>$48.00 - <del>$120.00</del></span>
+    		<label class="t-sub-s4">Que herbal Tea</label>
+    		<label>$48.00 - <del>$120.00</del></label>
         </div>
         <div class="product3-section4">
     		<div class="p3-s4"></div>
-    		<span>Society Ice Tea</span>
-    		<span>$120.00</span>
+    		<label class="t-sub-s4">Society Ice Tea</label>
+    		<label>$120.00</label>
         </div>
         <div class="product4-section4">
         	<span class="p4-s4__sale">-60%</span>
     		<div class="p4-s4"></div>
-    		<span>Best Friends Tea</span>
-    		<span>$48.00 - <del>$120.00</del></span>
+    		<label class="t-sub-s4">Best Friends Tea</label>
+    		<label>$48.00 - <del>$120.00</del></label>
         </div>
         <div class="product5-section4">
         	<span class="p5-s4__sale">-50%</span>
     		<div class="p5-s4"></div>
-    		<span>Every Space Tea</span>
-    		<span>$60.00 - <del>$120.00</del></span>
+    		<label class="t-sub-s4">Every Space Tea</label>
+    		<label>$60.00 - <del>$120.00</del></label>
         </div>
         <div class="product6-section4">
     		<div class="p6-s4"></div>
-    		<span>Tea and Chai</span>
-    		<span>$120.00</span>
+    		<label class="t-sub-s4">Tea and Chai</label>
+    		<label>$120.00</label>
         </div>
         <div class="product7-section4">
         	<span class="p7-s4__sale">-40%</span>
     		<div class="p7-s4"></div>
-    		<span>Green Tea Tulci</span>
-    		<span>$72.00 - <del>$120.00</del></span>
+    		<label class="t-sub-s4">Green Tea Tulci</label>
+    		<label>$72.00 - <del>$120.00</del></label>
         </div>
         <div class="product8-section4">
     		<div class="p8-s4"></div>
-    		<span>Instant Tea Premix</span>
-    		<span>$120.00</span>
+    		<label class="t-sub-s4">Instant Tea Premix</label>
+    		<label>$120.00</label>
         </div>
     </section>
 
@@ -154,7 +192,7 @@
     		<form>
 	    		<span class="text-section5">Join to our Newsletter</span><br/>
 	    		<input class="input-text" type="text" name="text" placeholder="Your Email Adress">
-	    		<input class="input-btn" type="submit" value="SUSCRIBE">
+	    		<input class="input-btn" type="submit" value="SUBSCRIBE">
     		</form>
     	</div>
     </section>
@@ -170,8 +208,8 @@
     		<div class="body-card">
     			<span class="t1-s6">14 Sep</span>
 	    		<span class="t2-s6">Lorem ipsu sit ame co.</span>
-	    		<p class="t3-s6">Lorem ipsu dolor sit amet. consecteur adipisicing elit sed do eiusmod tempor incididunl ut labore et dolore</p>
-	    		<span class="t4-s6">READ MORE</span> 
+	    		<p class="t3-s6">Lorem ipsum dolor sit amet. consecteur adipisicing elit sed do eiusmod tempor incididunl ut labore et dolore</p>
+	    		<span class="t4-s6 c-pointer-g">READ MORE</span> 
     		</div>   	
     	</div>
         <div class="product2-section6">
@@ -179,8 +217,8 @@
     		<div class="body-card">
     			<span class="t1-s6">20 Dec</span>
 	    		<span class="t2-s6">Lorem ipsu sit ame co.</span>
-	    		<p class="t3-s6">Lorem ipsu dolor sit amet. consecteur adipisicing elit sed do eiusmod tempor incididunl ut labore et dolore</p>
-	    		<span class="t4-s6">READ MORE</span> 
+	    		<p class="t3-s6">Lorem ipsum dolor sit amet. consecteur adipisicing elit sed do eiusmod tempor incididunl ut labore et dolore</p>
+	    		<span class="t4-s6 c-pointer-g">READ MORE</span> 
     		</div>   
         </div>
         <div class="product3-section6">
@@ -188,8 +226,8 @@
     		<div class="body-card">
     			<span class="t1-s6">18 Aug</span>
 	    		<span class="t2-s6">Lorem ipsu sit ame co.</span>
-	    		<p class="t3-s6">Lorem ipsu dolor sit amet. consecteur adipisicing elit sed do eiusmod tempor incididunl ut labore et dolore</p>
-	    		<span class="t4-s6">READ MORE</span> 
+	    		<p class="t3-s6">Lorem ipsum dolor sit amet. consecteur adipisicing elit sed do eiusmod tempor incididunl ut labore et dolore</p>
+	    		<span class="t4-s6 c-pointer-g">READ MORE</span> 
     		</div>   
         </div>
     </section>
