@@ -1467,7 +1467,7 @@ li{
         "section1" var(--size-section1)
         "section2" calc(var(--size-section2) + 180vh)
         "section3" calc(var(--size-section3) + 5vh)
-        "section4" calc(var(--size-section4) + 350vh)
+        "section4" calc(var(--size-section4) + 370vh)
         "section5" var(--size-section5)
         "section6" calc(var(--size-section6) + 170vh)
         "section7" calc(var(--size-section7) + 25vh)
